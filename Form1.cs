@@ -31,7 +31,7 @@ namespace AutoHardwareMonitorInfo
         {
             HttpClient client = new HttpClient();
 
-            string botToken = "6531431629:AAEIms0pZgyNVa-vYNFmQ2z-c2cShB4MCEo";
+            string botToken = "botToken";
             string chatID = "";
 
             HttpResponseMessage response = await client.GetAsync($"https://api.telegram.org/bot{botToken}/getUpdates");
