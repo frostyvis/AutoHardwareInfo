@@ -384,7 +384,7 @@ class HardwareInfo
         var chatId = jsonObj["ChatID"].ToString();
         var fileName = jsonObj["FileName"].ToString();
 
-        var botToken = "6531431629:AAEIms0pZgyNVa-vYNFmQ2z-c2cShB4MCEo";
+        var botToken = "botToken";
         var filePath = @"hardware_info.txt"; // path to the file to be sent
 
         var client = new HttpClient();
