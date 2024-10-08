@@ -94,7 +94,7 @@ namespace AutoHardwareMonitorInfo
                 taskDefinition.Settings.StartWhenAvailable = true; // Run the task immediately if a scheduled start is missed
                 taskDefinition.Triggers.Add(trigger);
 
-                taskDefinition.Actions.Add(new ExecAction(@"ProgramAHI.exe"));
+                taskDefinition.Actions.Add(new ExecAction(@"ProgramAHITG.exe"));
 
                 taskService.RootFolder.RegisterTaskDefinition("AutoHardwareInfo", taskDefinition);
                 MessageBox.Show("Task \"AutoHardwareInfo\" added");
@@ -151,7 +151,7 @@ namespace AutoHardwareMonitorInfo
             {
                 ProcessStartInfo SendTest = new ProcessStartInfo
                 {
-                    FileName = @"ProgramAHI.exe",
+                    FileName = @"ProgramAHITG.exe",
                     Verb = "runas"
                 };
                 try
