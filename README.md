@@ -1,1 +1,1 @@
-В данной ветке содержится код, который позволяет получить информацию о железе ПК.
+This branch contains code that allows you to obtain information about your PC hardware.
