@@ -1,1 +1,1 @@
-Данное приложение является частью выпускной квалификационной работы по сбору информации о железе ПК и отправке данных сведений в ТГ через чат бота.
+This application is part of the final qualification work on collecting information about PC hardware and sending this information to TG via a chat bot.
